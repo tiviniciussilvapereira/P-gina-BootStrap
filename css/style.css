@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+.section-bg{
+    text-align: center;
+    padding: 45px;
+}
+.section-1{
+    width: 100%;
+    padding: 25px;
+    background-color: #f8f9fa;
+    color: rgb(68, 68, 68);
+}
+.section-1__icone{ 
+    height: 150px;
+}
+.section-1__icone svg{ 
+    position: relative;
+    top: 0p;
+}
+.section-2{
+    margin: 50px;
+    color: rgb(68, 68, 68);
+}
+.section-2 h2{
+    padding-bottom: 10px;
+    border-bottom: 2px dotted rgb(104, 104, 104);
+}
+.section-3{
+    width: 100%;
+    padding: 60px;
+    background-color: #f8f9fa;
+}
+.section-3 .row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.section-3__texto h2{
+    padding-top: 30px;
+}
+.contato{
+    width: 100%;
+    padding: 20px;
+    padding-bottom: 50px;
+}
+footer{
+    background-color: rgb(68, 68, 68);
+    width: 100%;
+    padding: 20px;
+}
+footer .p{
+    padding-top: 20px;
+}
